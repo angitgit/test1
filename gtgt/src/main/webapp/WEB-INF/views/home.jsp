@@ -30,11 +30,12 @@
 		})
 	})
 </script> -->
+
 <script src="/resources/home.js">
 </script>
 
-
 <body>
+
 	<form name='homeForm' method="post" action="/member/login">
 		<c:if test="${member == null}">
 			<div>
